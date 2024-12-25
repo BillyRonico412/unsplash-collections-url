@@ -30,7 +30,7 @@ export const ButtonDownload = () => {
 			}}
 		>
 			<Download size={24} />
-			Download images
+			Download
 		</Button>
 	)
 }

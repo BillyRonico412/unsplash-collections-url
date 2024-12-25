@@ -44,7 +44,7 @@ export const ButtonFetchMore = () => {
 			}}
 		>
 			<StepForward size={24} />
-			Fetch more images
+			Fetch more
 		</Button>
 	)
 }
