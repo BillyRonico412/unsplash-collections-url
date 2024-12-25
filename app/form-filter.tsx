@@ -107,8 +107,8 @@ export const FormFilter = () => {
 									</Select>
 								</FormControl>
 								<FormDescription className="text-base">
-									Filter images by orientation and size (
-									{dataFiltered ? dataFiltered.length : 0} images filtered )
+									Filter images by orientation (
+									{dataFiltered ? dataFiltered.length : 0} images filtered)
 								</FormDescription>
 								<FormMessage />
 							</FormItem>
