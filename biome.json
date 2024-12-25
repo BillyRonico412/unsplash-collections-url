@@ -1,0 +1,56 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"all": true,
+			"style": {
+				"all": true,
+				"useNamingConvention": "off",
+				"noNamespaceImport": "off",
+				"useExplicitLengthCheck": "off",
+				"useDefaultSwitchClause": "off",
+				"noDefaultExport": "off"
+			},
+			"suspicious": {
+				"all": true,
+				"noArrayIndexKey": "off",
+				"noShadowRestrictedNames": "off",
+				"noReactSpecificProps": "off"
+			},
+			"a11y": {
+				"all": true,
+				"useKeyWithClickEvents": "off",
+				"noSvgWithoutTitle": "off"
+			},
+			"correctness": {
+				"all": true,
+				"noUndeclaredVariables": "off",
+				"noUndeclaredDependencies": "off",
+				"useImportExtensions": "off"
+			},
+			"complexity": {
+				"all": true,
+				"noExcessiveCognitiveComplexity": "off",
+				"useSimplifiedLogicExpression": "off"
+			},
+			"nursery": {
+				"all": true,
+				"useExplicitType": "off",
+				"useComponentExportOnlyModules": "off",
+				"noProcessEnv": "off"
+			}
+		},
+		"ignore": [
+			"./front/src/routeTree.gen.ts"
+		]
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
+	}
+}
