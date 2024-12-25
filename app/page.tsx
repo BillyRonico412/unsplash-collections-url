@@ -9,7 +9,12 @@ export default function Home() {
 			</h1>
 			<p className="text-center leading-6">
 				Download all images from an Unsplash collection by providing the url of
-				the collection.
+				the
+				<span> </span>
+				<a href="https://unsplash.com/fr/collections" className="underline">
+					collection
+				</a>
+				.
 			</p>
 			<FormFields />
 			<FetchData />
